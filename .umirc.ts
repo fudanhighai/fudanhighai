@@ -17,4 +17,5 @@ export default defineConfig({
       content: 'width=device-width,initial-scale=1',
     }
   ],
+  links: [{ rel: 'icon', href: '/favicon.ico' }]
 });
