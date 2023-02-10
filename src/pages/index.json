@@ -181,50 +181,42 @@
         {
             "figure": "profile1.png",
             "teacherName": "马兴军",
-            "jobTitle": "青年研究员/博士生导师",
-            "rewards": "· 复旦大学计算机学院青年研究员<br />· 国家级青年人才计划入选者"
+            "jobTitle": "复旦大学计算机学院青年研究员"
         },
         {
             "figure": "profile2.png",
             "teacherName": "欧阳万里",
-            "jobTitle": "上海人工智能实验室教授、博士生导师",
-            "rewards": "· 研究方向：人工智能、计算机视觉、AI4Science   "
+            "jobTitle": "上海人工智能实验室教授"
         },
         {
             "figure": "profile3.png",
             "teacherName": "张奇",
-            "jobTitle": "复旦大学计算机学院教授、博士生导师",
-            "rewards": "· 人工智能"
+            "jobTitle": "复旦大学计算机学院教授"
         },
         {
             "figure": "profile4.png",
             "teacherName": "陈智能",
-            "jobTitle": "青年研究员/博士生导师",
-            "rewards": "· 复旦大学计算机学院青年研究员"
+            "jobTitle": "复旦大学计算机学院青年研究员"
         },
         {
             "figure": "profile5.png",
             "teacherName": "吴祖煊",
-            "jobTitle": "青年副研究员/博士生导师",
-            "rewards": "· 复旦大学计算机学院青年副研究员<br />· 国家级青年人才计划入选者"
+            "jobTitle": "复旦大学计算机学院青年副研究员"
         },
         {
             "figure": "profile6.png",
             "teacherName": "叶广楠",
-            "jobTitle": "教授/博士生导师",
-            "rewards": "· 复旦大学计算机学院教授<br />· 国家级青年人才计划入选者"
+            "jobTitle": "教授/博士生导师"
         },
         {
             "figure": "profile7.png",
             "teacherName": "陈思明",
-            "jobTitle": "青年研究员/博士生导师",
-            "rewards": "· 复旦大学大数据学院青年研究员"
+            "jobTitle": "青年研究员/博士生导师"
         },
         {
             "figure": "profile8.png",
             "teacherName": "曲文",
-            "jobTitle": "青年副研究员/硕士生导师",
-            "rewards": "· 复旦大学社会科学高等研究院青年副研究员"
+            "jobTitle": "复旦大学社会科学高等研究院青年副研究员"
         }
     ]
 }
