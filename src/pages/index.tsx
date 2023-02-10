@@ -18,7 +18,7 @@ const Homepage = () => {
           <div className={styles.guideName}>课程简介</div>
           <div className={styles.guideName}>示例项目</div>
           <div className={styles.guideName}>课程资源</div>
-          <div className={styles.guideName}>教师介绍</div>
+          <div className={styles.guideName}>教师团队</div>
         </div>
         <div className={styles.carousel}>
           <Carousel>
