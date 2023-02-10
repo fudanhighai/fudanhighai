@@ -2,7 +2,8 @@ name: Publish GitHub Pages
 
 on:
   push:
-    branches: [ homepage ]
+    branches: 
+     - homepage
 
 jobs:
   publish-gpr:
