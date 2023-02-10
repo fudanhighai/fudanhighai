@@ -27,4 +27,4 @@ jobs:
         with:
           token: ${{ secrets.GH_PAGES_TOKEN }}
           BRANCH: gh-pages-test
-          folder: .
+          folder: dist
