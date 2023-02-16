@@ -1,11 +1,18 @@
 import lessonIcon from '@/assets/img/lessonIcon.png';
 import logo from '@/assets/img/logo.png';
+import closeIcon from '@/assets/img/closeIcon.png';
 import { Carousel } from 'antd';
 import data from './index.json';
-
+import { Modal } from 'antd';
 import styles from './index.less';
+import React, { useState } from 'react';
+import LessonResources from '@/components/lessonResources';
+import TeacherTeam from '@/components/teacherTeam';
 
 const Homepage = () => {
+  const [lessonModalOpen, setLessonModalOpen] = useState(false);
+  const [teacherTeamOpen, setTeacherTeamOpen] = useState(false);
+
   const { lessons, projects, process, lastProcess, exams, schedule, teachers } = data;
   return (
     <div className={styles.container}>
@@ -17,15 +24,22 @@ const Homepage = () => {
         <div className={styles.guide}>
           <div className={styles.guideName}>课程简介</div>
           <div className={styles.guideName}>示例项目</div>
-          <div className={styles.guideName}>课程资源</div>
-          <div className={styles.guideName}>教师团队</div>
+          <div
+            className={styles.guideName}
+            onClick={() => setLessonModalOpen(!lessonModalOpen)}
+          >课程资源
+          </div>
+          <div
+            className={styles.guideName}
+            onClick={() => setTeacherTeamOpen(!teacherTeamOpen)}
+          >教师团队</div>
         </div>
         <div className={styles.carousel}>
           <Carousel>
-            {lessons.map((item) => {
+            {lessons.map((item, index) => {
               return (
                 <>
-                  <div className={styles.childrenCarsel}>
+                  <div className={styles.childrenCarsel} key={index}>
                     <div>
                       <div className={styles.carouselHeader}>{item.lessonName}</div>
                       <div className={styles.context}>
@@ -144,7 +158,7 @@ const Homepage = () => {
                   <img className={styles.teamImage} src={`${require("@/assets/img/team/" + item.figure)}`} />
                   <div className={styles.teacherName}>{item.teacherName}</div>
                   <div className={styles.jobTitle}>{item.jobTitle}</div>
-                  <div className={styles.rewards} dangerouslySetInnerHTML={{ __html: item.rewards }} />
+                  {/* <div className={styles.rewards} dangerouslySetInnerHTML={{ __html: item.rewards }} /> */}
                 </div>
               </>
             )
@@ -177,6 +191,30 @@ const Homepage = () => {
             <div>Privacy Policy</div>
             <div>Terms & Conditions</div>
           </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <Modal
+            open={lessonModalOpen}
+            onCancel={() => { setLessonModalOpen(false) }}
+            closeIcon={<img src={closeIcon} className={styles.closeIcon} />}
+            getContainer={false}
+            footer={null}
+          >
+            <LessonResources />
+          </Modal>
+        </div>
+        <div>
+          <Modal
+            open={teacherTeamOpen}
+            onCancel={() => { setTeacherTeamOpen(false) }}
+            closeIcon={<img src={closeIcon} className={styles.closeIcon} />}
+            getContainer={false}
+            footer={null}
+          >
+            <TeacherTeam />
+          </Modal>
         </div>
       </div>
     </div>
