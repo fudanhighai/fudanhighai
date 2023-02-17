@@ -32,9 +32,9 @@ const Homepage = () => {
             className={styles.guideName}
             onClick={() => setClassDetailOpen(!classDetailOpen)}
           >课程详情</div>
-          <div 
-          className={styles.guideName}
-          onClick={() => scrollToProjects()}
+          <div
+            className={styles.guideName}
+            onClick={() => scrollToProjects()}
           >示例项目</div>
           <div
             className={styles.guideName}
@@ -183,22 +183,34 @@ const Homepage = () => {
       </div>
       <div className={styles.footer}>
         <div className={styles.catalogs}>
-          <div className={styles.catalog}>
+          <div
+            className={styles.catalog}
+            onClick={() => setClassDetailOpen(!classDetailOpen)}
+          >
             课程详情
           </div>
-          <div className={styles.catalog}>
+          <div
+            className={styles.catalog}
+            onClick={() => scrollToProjects()}
+          >
             示例项目
           </div>
-          <div className={styles.catalog}>
+          <div
+            className={styles.catalog}
+            onClick={() => setLessonModalOpen(!lessonModalOpen)}
+          >
             课程资源
           </div>
-          <div className={styles.catalog}>
+          <div
+            className={styles.catalog}
+            onClick={() => setTeacherTeamOpen(!teacherTeamOpen)}
+          >
             教师介绍
           </div>
         </div>
         <div className={styles.line} />
         <div className={styles.copyrightAndPolicy}>
-          <div className={styles.copyright}>© Copyright 2022, All Rights Reserved</div>
+          <div className={styles.copyright}>© Copyright 2023, All Rights Reserved</div>
           <div className={styles.policy}>
             <div>Privacy Policy</div>
             <div>Terms & Conditions</div>

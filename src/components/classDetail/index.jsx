@@ -6,7 +6,7 @@ import 'github-markdown-css/github-markdown.css';
 const mdUrl = "lessonDetail.md";
 
 const ClassDetail = () => {
-    const [markdownString, setMarkdownString] = useState(null);
+    const [markdownString, setMarkdownString] = useState("");
 
     useEffect(() => {
         convertMdToString(mdUrl);
