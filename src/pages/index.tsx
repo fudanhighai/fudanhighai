@@ -8,10 +8,16 @@ import styles from './index.less';
 import React, { useState } from 'react';
 import LessonResources from '@/components/lessonResources';
 import TeacherTeam from '@/components/teacherTeam';
+import ClassDetail from '@/components/classDetail';
 
 const Homepage = () => {
   const [lessonModalOpen, setLessonModalOpen] = useState(false);
   const [teacherTeamOpen, setTeacherTeamOpen] = useState(false);
+  const [classDetailOpen, setClassDetailOpen] = useState(false);
+
+  const scrollToProjects = () => {
+    document.getElementById("projects")?.scrollIntoView();
+  }
 
   const { lessons, projects, process, lastProcess, exams, schedule, teachers } = data;
   return (
@@ -22,8 +28,14 @@ const Homepage = () => {
           <div className={styles.titleText}>复旦大学高中生人工智能先修课</div>
         </div>
         <div className={styles.guide}>
-          <div className={styles.guideName}>课程简介</div>
-          <div className={styles.guideName}>示例项目</div>
+          <div
+            className={styles.guideName}
+            onClick={() => setClassDetailOpen(!classDetailOpen)}
+          >课程详情</div>
+          <div 
+          className={styles.guideName}
+          onClick={() => scrollToProjects()}
+          >示例项目</div>
           <div
             className={styles.guideName}
             onClick={() => setLessonModalOpen(!lessonModalOpen)}
@@ -67,7 +79,7 @@ const Homepage = () => {
           </Carousel>
         </div>
       </div>
-      <div className={styles.bodyProject}>
+      <div className={styles.bodyProject} id="projects">
         <div className={styles.projectHeader}>实例项目</div>
         <div className={styles.projects}>
           {projects.map((item) => {
@@ -172,7 +184,7 @@ const Homepage = () => {
       <div className={styles.footer}>
         <div className={styles.catalogs}>
           <div className={styles.catalog}>
-            课程简介
+            课程详情
           </div>
           <div className={styles.catalog}>
             示例项目
@@ -194,6 +206,17 @@ const Homepage = () => {
         </div>
       </div>
       <div>
+        <div>
+          <Modal
+            open={classDetailOpen}
+            onCancel={() => { setClassDetailOpen(false) }}
+            closeIcon={<img src={closeIcon} className={styles.closeIcon} />}
+            getContainer={false}
+            footer={null}
+          >
+            <ClassDetail />
+          </Modal>
+        </div>
         <div>
           <Modal
             open={lessonModalOpen}

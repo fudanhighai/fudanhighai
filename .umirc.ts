@@ -1,6 +1,13 @@
 import { defineConfig } from "umi";
 
 export default defineConfig({
+  chainWebpack: (config) => {
+    config.module
+      .rule('md')
+      .test(/\.md$/)
+      .use('raw-loader')
+      .loader('raw-loader')
+  },
   routes: [
     { path: "/", component: "index" },
   ],
