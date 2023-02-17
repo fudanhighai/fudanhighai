@@ -9,10 +9,29 @@
     }
 
     .table {
-        width: 69rem;
+        width: 72rem;
+        padding-left: 1rem;
         margin: 0 auto;
         height: calc(80vh - 15rem);
         overflow-x: auto;
+    }
+
+    .table::-webkit-scrollbar {
+        background: rgba(0, 0, 0, 0);
+        width: 10px;
+    }
+
+    .table::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: rgb(217, 217, 217);
+    }
+
+    .table::-webkit-scrollbar-button {
+        display: none;
+    }
+    
+    .links {
+        vertical-align: baseline;
     }
 
     .link {
@@ -32,7 +51,7 @@
     .name {
         font-size: 1.38rem;
         color: @fontColorNormal;
-        font-family: "MiSans-Regular";
+        font-family: "MiSans-Bold";
         font-weight: bold;
     }
 
@@ -69,7 +88,8 @@
         }
 
         .table {
-            width: 1104px;
+            width: 1152px;
+            padding-right: 16px;
             height: calc(80vh - 240px);
         }
 
@@ -85,6 +105,8 @@
 
         .name {
             font-size: 22px;
+            font-family: "MiSans-Bold";
+            font-weight: bold;
         }
 
         .intro {

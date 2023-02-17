@@ -1,9 +1,9 @@
 # 系外行星检测
-![](./Exoplanet%20Hunting%20in%20Deep%20Space/archive/plot/other/yinhe.jpg)
+![](https://raw.githubusercontent.com/fudanhighai/fudanhighai.github.io/main/src/assets/img/lesson/other/yinhe.jpg)
 ***
 ## 一、什么是系外行星
 太阳系外行星，又称系外行星，是围绕一颗恒星(即太阳系的一部分)运行的行星，而这颗恒星并不是太阳。我们的太阳系只是数十亿星系中的一个，在这些星系中，有许多很可能有自己的行星系统。早在16世纪，就有天文学家提出了太阳系外行星存在的猜想。
-![](./Exoplanet%20Hunting%20in%20Deep%20Space/archive/plot/other/planet_0.jpg)
+![](https://raw.githubusercontent.com/fudanhighai/fudanhighai.github.io/main/src/assets/img/lesson/other/planet_0.jpg)
 
 ***
 ## 二、为什么要寻找系外行星
@@ -12,11 +12,11 @@
 古时候的人们对于地球和人类同样有着无比的兴趣，想要搞清楚这个世界的来历，搞清楚人类的起源。可是由于古人缺乏科学的引导，无法真正进入探索的殿堂，于是幻想出许多的神话故事，认为这个世界和人类都是虚无缥缈的神创造的。  
 随着人类文明的发展，我们走上了科技之路，开始用科技探索文明。但根据目前的科学探索，地球起源于46亿年前，原始的生命诞生于40亿年前，人类则出现于数百万年前。  
 虽然我们知道了地球和人类起源的时间，但想要完全搞清楚地球在诞生之后是如何演化成一颗生命星球，目前是无法做到的，如果我们能观测到一颗年轻的恒星系，观测到恒星系身边的一个年轻的生态行星，或许就可以通过研究这颗行星的变化了解到地球早期的演化史，同时也可能了解到生命是如何从简单一步步演化到高级的变化。  
-![](./Exoplanet%20Hunting%20in%20Deep%20Space/archive/plot/other/where.webp)
+![](https://raw.githubusercontent.com/fudanhighai/fudanhighai.github.io/main/src/assets/img/lesson/other/where.webp)
 ### 2、我们是宇宙中孤独的文明吗？
 几代人以来，人类一直仰望夜空，想知道自己在宇宙中是否是孤立存在的？  
 我们存在着这样的疑问：外星人真的存在吗？它们是否已经造访过我们的星球？它们拥有怎样的历史与文明？  
-![](./Exoplanet%20Hunting%20in%20Deep%20Space/archive/plot/other/loneliness.jpg)
+![](https://raw.githubusercontent.com/fudanhighai/fudanhighai.github.io/main/src/assets/img/lesson/other/loneliness.jpg)
 物理学家费米曾提出过一个著名问题：“他们都在哪儿呢？”自从知道地球并非宇宙的中心，人们就猜测或许有地外文明的存在，但对水星、火星等太阳系行星的探索尚未找到生命存在的证据，于是科学家们把触角伸向了系外行星。  
 
 ### 3、我们要到哪里去？

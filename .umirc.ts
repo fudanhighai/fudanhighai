@@ -1,13 +1,7 @@
 import { defineConfig } from "umi";
 
 export default defineConfig({
-  chainWebpack: (config) => {
-    config.module
-      .rule('md')
-      .test(/\.md$/)
-      .use('raw-loader')
-      .loader('raw-loader')
-  },
+  title: "复旦大学高中生人工智能先修课",
   routes: [
     { path: "/", component: "index" },
   ],

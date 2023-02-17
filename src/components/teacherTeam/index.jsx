@@ -8,8 +8,9 @@ const TeacherTeam = () => {
     const columns = [
         {
             title: '',
-            dataIndex: 'number',
-            key: 'number',
+            dataIndex: 'img',
+            key: 'img',
+            width: '20%',
             render: (_, { img }) => (
                 <>
                     <img src={img} className={styles.teacherImg} />
@@ -20,6 +21,7 @@ const TeacherTeam = () => {
             title: '教师简介',
             dataIndex: 'name',
             key: 'name',
+            width: '70%',
             render: (_, { name, intro }) => (
                 <>
                 <div className={styles.name}>{name}</div>
@@ -30,6 +32,8 @@ const TeacherTeam = () => {
         {
             title: '相关链接',
             key: 'download',
+            width: '10%',
+            className: styles.links,
             render: (_, { link }) => (
                 <>
                     {link.map((item) => {
