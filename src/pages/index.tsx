@@ -9,14 +9,26 @@ import React, { useState } from 'react';
 import LessonResources from '@/components/lessonResources';
 import TeacherTeam from '@/components/teacherTeam';
 import ClassDetail from '@/components/classDetail';
+import ProjectDetail from '@/components/projectDetail';
 
 const Homepage = () => {
   const [lessonModalOpen, setLessonModalOpen] = useState(false);
   const [teacherTeamOpen, setTeacherTeamOpen] = useState(false);
   const [classDetailOpen, setClassDetailOpen] = useState(false);
+  const [projectDetailOpen, setProjectDetailOpen] = useState(false);
+  const [projectUrl, setProjectUrl] = useState("");
 
   const scrollToProjects = () => {
     document.getElementById("projects")?.scrollIntoView();
+  }
+
+  const turnToRegistrationPage = () => {
+    window.open("https://mp.weixin.qq.com/s/NWPxQwqgE0xBGBg7lr1yzQ");
+  }
+
+  const openProjectDetail = (url) => {
+    setProjectDetailOpen(true);
+    setProjectUrl(url);
   }
 
   const { lessons, projects, process, lastProcess, exams, schedule, teachers } = data;
@@ -35,7 +47,7 @@ const Homepage = () => {
           <div
             className={styles.guideName}
             onClick={() => scrollToProjects()}
-          >示例项目</div>
+          >实例项目</div>
           <div
             className={styles.guideName}
             onClick={() => setLessonModalOpen(!lessonModalOpen)}
@@ -92,7 +104,7 @@ const Homepage = () => {
                   </div>
                   <div className={styles.description}>{item.projectDescription}</div>
                   <div className={styles.projectFooter}>
-                    <div className={styles.readMore}>{item.projectReadMore}</div>
+                    <div className={styles.readMore} onClick={() => {openProjectDetail(`projects/projectDetail1.md`)}}>{item.projectReadMore}</div>
                   </div>
                 </div>
               </>
@@ -179,7 +191,7 @@ const Homepage = () => {
       </div>
       <div className={styles.regist}>
         <div className={styles.text}>复旦大学高中生人工智能先修课</div>
-        <div className={styles.button}>马上报名</div>
+        <div className={styles.button} onClick={() => turnToRegistrationPage()}>马上报名</div>
       </div>
       <div className={styles.footer}>
         <div className={styles.catalogs}>
@@ -193,7 +205,7 @@ const Homepage = () => {
             className={styles.catalog}
             onClick={() => scrollToProjects()}
           >
-            示例项目
+            实例项目
           </div>
           <div
             className={styles.catalog}
@@ -223,7 +235,6 @@ const Homepage = () => {
             open={classDetailOpen}
             onCancel={() => { setClassDetailOpen(false) }}
             closeIcon={<img src={closeIcon} className={styles.closeIcon} />}
-            getContainer={false}
             footer={null}
           >
             <ClassDetail />
@@ -234,7 +245,6 @@ const Homepage = () => {
             open={lessonModalOpen}
             onCancel={() => { setLessonModalOpen(false) }}
             closeIcon={<img src={closeIcon} className={styles.closeIcon} />}
-            getContainer={false}
             footer={null}
           >
             <LessonResources />
@@ -245,10 +255,19 @@ const Homepage = () => {
             open={teacherTeamOpen}
             onCancel={() => { setTeacherTeamOpen(false) }}
             closeIcon={<img src={closeIcon} className={styles.closeIcon} />}
-            getContainer={false}
             footer={null}
           >
             <TeacherTeam />
+          </Modal>
+        </div>
+        <div>
+          <Modal
+            open={projectDetailOpen}
+            onCancel={() => { setProjectDetailOpen(false) }}
+            closeIcon={<img src={closeIcon} className={styles.closeIcon} />}
+            footer={null}
+          >
+            <ProjectDetail url={projectUrl} />
           </Modal>
         </div>
       </div>

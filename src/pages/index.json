@@ -6,7 +6,7 @@
             "lessonButton": "了解更多",
             "lessonFeature": [
                 "复旦大学任课教师/团队",
-                "大量真实场景示例项目",
+                "大量真实场景实例项目",
                 "每次 3 课时，12 次课，共 36 学时"
             ],
             "lessonImg": "quote.png"
@@ -17,7 +17,7 @@
             "lessonButton": "了解更多",
             "lessonFeature": [
                 "复旦大学任课教师/团队",
-                "大量真实场景示例项目",
+                "大量真实场景实例项目",
                 "每次 3 课时，12 次课，共 36 学时"
             ],
             "lessonImg": "quote.png"
@@ -28,7 +28,7 @@
             "lessonButton": "了解更多",
             "lessonFeature": [
                 "复旦大学任课教师/团队",
-                "大量真实场景示例项目",
+                "大量真实场景实例项目",
                 "每次 3 课时，12 次课，共 36 学时"
             ],
             "lessonImg": "quote.png"
@@ -43,49 +43,49 @@
             "projectBackground": "projectBackground.png"
         },
         {
-            "projectName": "系外行星检测",
+            "projectName": "寻找走失儿童",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
             "projectBackground": "projectBackground.png"
         },
         {
-            "projectName": "系外行星检测",
+            "projectName": "帮助盲人识字",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
             "projectBackground": "projectBackground.png"
         },
         {
-            "projectName": "系外行星检测",
+            "projectName": "虚假新闻检测",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
             "projectBackground": "projectBackground.png"
         },
         {
-            "projectName": "系外行星检测",
+            "projectName": "情感倾向分析",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
             "projectBackground": "projectBackground.png"
         },
         {
-            "projectName": "系外行星检测",
+            "projectName": "金融风险检测",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
             "projectBackground": "projectBackground.png"
         },
         {
-            "projectName": "系外行星检测",
+            "projectName": "学习隐藏的规律",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
             "projectBackground": "projectBackground.png"
         },
         {
-            "projectName": "系外行星检测",
+            "projectName": "真假人脸识别",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
