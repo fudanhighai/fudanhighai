@@ -11,6 +11,7 @@ const TeacherTeam = () => {
             dataIndex: 'img',
             key: 'img',
             width: '20%',
+            className: styles.imgs,
             render: (_, { img }) => (
                 <>
                     <img src={img} className={styles.teacherImg} />

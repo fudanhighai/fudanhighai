@@ -8,6 +8,20 @@
         overflow-x: auto;
     }
 
+    .content::-webkit-scrollbar {
+        background: rgba(0, 0, 0, 0);
+        width: 10px;
+    }
+
+    .content::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background: rgb(217, 217, 217);
+    }
+
+    .content::-webkit-scrollbar-button {
+        display: none;
+    }
+
     :global(.markdown-body a) {
         color: #5B8DFC !important;
     }
