@@ -40,70 +40,90 @@
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
-            "projectBackground": "projectBackground.png"
+            "projectBackground": "projectBackground.png",
+            "markdown": "projects/projectDetail1.md",
+            "link": ""
         },
         {
             "projectName": "寻找走失儿童",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
-            "projectBackground": "projectBackground.png"
+            "projectBackground": "projectBackground.png",
+            "markdown": "",
+            "link": "https://www.csdn.net/"
         },
         {
             "projectName": "帮助盲人识字",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
-            "projectBackground": "projectBackground.png"
+            "projectBackground": "projectBackground.png",
+            "markdown": "projects/projectDetail1.md",
+            "link": ""
         },
         {
             "projectName": "虚假新闻检测",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
-            "projectBackground": "projectBackground.png"
+            "projectBackground": "projectBackground.png",
+            "markdown": "projects/projectDetail1.md",
+            "link": ""
         },
         {
             "projectName": "情感倾向分析",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
-            "projectBackground": "projectBackground.png"
+            "projectBackground": "projectBackground.png",
+            "markdown": "projects/projectDetail1.md",
+            "link": ""
         },
         {
             "projectName": "金融风险检测",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
-            "projectBackground": "projectBackground.png"
+            "projectBackground": "projectBackground.png",
+            "markdown": "projects/projectDetail1.md",
+            "link": ""
         },
         {
             "projectName": "学习隐藏的规律",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
-            "projectBackground": "projectBackground.png"
+            "projectBackground": "projectBackground.png",
+            "markdown": "projects/projectDetail1.md",
+            "link": ""
         },
         {
             "projectName": "真假人脸识别",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
-            "projectBackground": "projectBackground.png"
+            "projectBackground": "projectBackground.png",
+            "markdown": "projects/projectDetail1.md",
+            "link": ""
         },
         {
             "projectName": "打开人工智能的黑盒子",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
-            "projectBackground": "projectBackground.png"
+            "projectBackground": "projectBackground.png",
+            "markdown": "projects/projectDetail1.md",
+            "link": ""
         },
         {
             "projectName": "能让你“隐身”的对抗补丁",
             "projectDescription": "Adversarial attacks and defenses.",
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
-            "projectBackground": "projectBackground.png"
+            "projectBackground": "projectBackground.png",
+            "markdown": "projects/projectDetail1.md",
+            "link": ""
         }
     ],
     "process": [

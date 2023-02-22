@@ -17,6 +17,7 @@ const Homepage = () => {
   const [classDetailOpen, setClassDetailOpen] = useState(false);
   const [projectDetailOpen, setProjectDetailOpen] = useState(false);
   const [projectUrl, setProjectUrl] = useState("");
+  const [isProjectDetailMarkdown, setIsProjectDetailMarkdown] = useState(true);
 
   const scrollToProjects = () => {
     document.getElementById("projects")?.scrollIntoView();
@@ -27,6 +28,13 @@ const Homepage = () => {
   }
 
   const openProjectDetail = (url) => {
+    setIsProjectDetailMarkdown(true);
+    setProjectDetailOpen(true);
+    setProjectUrl(url);
+  }
+
+  const openProjectLink = (url) => {
+    setIsProjectDetailMarkdown(false);
     setProjectDetailOpen(true);
     setProjectUrl(url);
   }
@@ -106,7 +114,7 @@ const Homepage = () => {
                   </div>
                   <div className={styles.description}>{item.projectDescription}</div>
                   <div className={styles.projectFooter}>
-                    <div className={styles.readMore} onClick={() => { openProjectDetail(`projects/projectDetail1.md`) }}>{item.projectReadMore}</div>
+                    <div className={styles.readMore} onClick={() => { item.markdown !== "" ? openProjectDetail(item.markdown) : openProjectLink(item.link) }}>{item.projectReadMore}</div>
                   </div>
                 </div>
               </>
@@ -150,7 +158,7 @@ const Homepage = () => {
                     <img className={styles.icon} src={`${require("@/assets/img/exam/" + item.icon)}`} />
                   </div>
                   <div>
-                    <div className={styles.reportTitle}>结业报告</div>
+                    <div className={styles.reportTitle}>{item.title}</div>
                     {item.details.map((detail) => {
                       return (
                         <div className={styles.reportDetail} dangerouslySetInnerHTML={{ __html: detail }} />
@@ -270,7 +278,7 @@ const Homepage = () => {
             closeIcon={<img src={closeIcon} className={styles.closeIcon} />}
             footer={null}
           >
-            <ProjectDetail url={projectUrl} />
+            <ProjectDetail url={projectUrl} isMarkdown={isProjectDetailMarkdown} />
           </Modal>
         </div>
       </div>
