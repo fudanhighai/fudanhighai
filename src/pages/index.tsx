@@ -35,28 +35,30 @@ const Homepage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <div className={styles.title}>
-          <img src={logo} className={styles.logo} />
-          <div className={styles.titleText}>复旦大学高中生人工智能先修课</div>
-        </div>
-        <div className={styles.guide}>
-          <div
-            className={styles.guideName}
-            onClick={() => setClassDetailOpen(!classDetailOpen)}
-          >课程详情</div>
-          <div
-            className={styles.guideName}
-            onClick={() => scrollToProjects()}
-          >实例项目</div>
-          <div
-            className={styles.guideName}
-            onClick={() => setLessonModalOpen(!lessonModalOpen)}
-          >课程资源
+        <div className={styles.head}>
+          <div className={styles.title}>
+            <img src={logo} className={styles.logo} />
+            <div className={styles.titleText}>复旦大学高中生人工智能先修课</div>
           </div>
-          <div
-            className={styles.guideName}
-            onClick={() => setTeacherTeamOpen(!teacherTeamOpen)}
-          >教师团队</div>
+          <div className={styles.guide}>
+            <div
+              className={styles.guideName}
+              onClick={() => setClassDetailOpen(!classDetailOpen)}
+            >课程详情</div>
+            <div
+              className={styles.guideName}
+              onClick={() => scrollToProjects()}
+            >实例项目</div>
+            <div
+              className={styles.guideName}
+              onClick={() => setLessonModalOpen(!lessonModalOpen)}
+            >课程资源
+            </div>
+            <div
+              className={styles.guideName}
+              onClick={() => setTeacherTeamOpen(!teacherTeamOpen)}
+            >教师团队</div>
+          </div>
         </div>
         <div className={styles.carousel}>
           <Carousel>
@@ -104,7 +106,7 @@ const Homepage = () => {
                   </div>
                   <div className={styles.description}>{item.projectDescription}</div>
                   <div className={styles.projectFooter}>
-                    <div className={styles.readMore} onClick={() => {openProjectDetail(`projects/projectDetail1.md`)}}>{item.projectReadMore}</div>
+                    <div className={styles.readMore} onClick={() => { openProjectDetail(`projects/projectDetail1.md`) }}>{item.projectReadMore}</div>
                   </div>
                 </div>
               </>
@@ -168,6 +170,7 @@ const Homepage = () => {
               )
             })}
             <div className={styles.line} />
+            <div className={styles.title}>{schedule.locationTitle}</div>
             <div className={styles.date}>{schedule.duration}</div>
           </div>
         </div>

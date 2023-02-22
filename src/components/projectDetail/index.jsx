@@ -18,7 +18,6 @@ const ProjectDetail = ({url}) => {
 
     return (
         <div className={styles.lessonResources}>
-            <div className={styles.title}>项目详情</div>
             <div className={styles.content}>
                 <ReactMarkdown className='markdown-body' children={markdownString} skipHtml={false} />
             </div>

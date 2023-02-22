@@ -10,24 +10,30 @@ body {
         background: url("@/assets/img/header.jpg") center no-repeat;
         background-size: cover;
         width: 100%;
-        height: 56.88rem;
+    }
+
+    .head {
+        display: flex;
+        width: 75rem;
+        margin: 0 auto;
+        padding: 2.88rem 0 2.58rem;
+        justify-content: space-between;
     }
 
     .logo {
-        width: 7.95rem;
-        height: 7.95rem;
-        margin-right: 1.56rem;
+        width: 4.33rem;
+        height: 4.33rem;
+        margin-right: 1.17rem;
     }
 
     .titleText {
         color: @fontColorWhite;
         font-family: "MiSans-Heavy";
-        font-size: 4rem;
+        font-size: 2.33rem;
         font-weight: 800;
     }
 
     .title {
-        padding-top: 2.81rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -36,13 +42,13 @@ body {
     .guide {
         display: flex;
         justify-content: space-between;
-        width: 53.13rem;
+        width: 31.95rem;
         margin: 2.75rem auto;
     }
 
     .guideName {
-        font-size: 1.5rem;
-        font-family: "MiSans-Heavy";
+        font-size: 1.33rem;
+        font-family: "MiSans-Demibold";
         font-weight: 800;
         color: @fontColorWhite;
         cursor: pointer;
@@ -135,8 +141,7 @@ body {
 
     .projects {
         width: 76.1rem;
-        height: 20.7rem;
-        margin: 2.25rem auto 2.44rem;
+        margin: 2.25rem auto 0.69rem;
         display: flex;
         flex-wrap: wrap;
         align-content: space-between;
@@ -147,7 +152,7 @@ body {
             border-radius: 0.63rem;
             padding: 1.25rem 1.25rem 1.13rem 1.19rem;
             background-size: cover;
-            margin: 0 0.5rem;
+            margin: 0 0.5rem 1.75rem 0.5rem;
         }
 
         .projectHeader {
@@ -290,8 +295,7 @@ body {
             border-radius: 2rem;
             border: 0.13rem solid @themeColorGray;
             width: 22.75rem;
-            height: 25.31rem;
-            padding: 0 2.5rem;
+            padding: 0 2.5rem 2.58rem 2.5rem;
 
             .title {
                 font-size: 1.38rem;
@@ -309,6 +313,7 @@ body {
                 font-weight: 400;
                 color: @fontColorGray;
                 line-height: 1.75rem;
+                height: 1.75rem;
             }
 
             .line {
@@ -471,10 +476,6 @@ body {
         cursor: pointer;
     }
 
-    .closeIcon {
-        width: 1.88rem;
-    }
-
     :global(.ant-carousel .slick-dots li.slick-active button) {
         background: @themeColor;
         width: 2.75rem;
@@ -505,350 +506,338 @@ body {
         width: 1rem;
     }
 
-    @media screen and (min-width: 1600px) {
-        .header {
-            height: 909px;
+    @media screen and (min-width: 1200px) {
+
+        .head {
+            width: 960px;
+            padding: 36.86px 0 33px;
         }
 
         .logo {
-            width: 127px;
-            height: 127px;
-            margin-right: 25px;
+            width: 55.42px;
+            height: 55.42px;
+            margin-right: 15px;
         }
 
         .titleText {
-            font-size: 64px;
-        }
-
-        .title {
-            padding-top: 44px;
+            font-size: 30px;
         }
 
         .guide {
-            width: 850px;
-            margin: 44px auto;
+            width: 409px;
+            margin: 35.2px auto;
         }
 
         .guideName {
-            font-size: 24px;
+            font-size: 17px;
         }
 
         .carousel {
-            padding-top: 20px;
+            padding-top: 16px;
         }
 
         .childrenCarsel {
-            width: 1200px !important;
-            height: 595px;
+            width: 960px !important;
+            height: 476px;
 
             .carouselHeader {
-                font-size: 48px;
+                font-size: 38.4px;
             }
 
             .context {
-                width: 587px;
-                font-size: 18px;
+                width: 496.77px;
+                font-size: 14.46px;
             }
 
             .button {
-                width: 160px;
-                height: 56px;
-                border-radius: 28px;
-                font-size: 16px;
-                margin: 26px 0;
+                width: 128px;
+                height: 44.8px;
+                border-radius: 22.4px;
+                font-size: 12.8px;
+                margin: 20.86px 0;
             }
 
             .lessonDetails {
-                padding-top: 16px;
+                padding-top: 12.8px;
             }
 
             .lessonDetail {
-                margin-bottom: 12px;
+                margin-bottom: 9.6px;
             }
 
             .icon {
-                width: 24px;
-                height: 24px;
-                margin-right: 12px;
+                width: 19.2px;
+                height: 19.2px;
+                margin-right: 9.6px;
             }
 
             .lessonText {
-                font-size: 14px;
-                line-height: 24px;
+                font-size: 11.26px;
+                line-height: 19.2px;
             }
         }
 
         .quote {
-            width: 540px;
-            height: 540px;
+            width: 432px;
+            height: 400px;
         }
 
         :global(.ant-carousel .slick-dots li.slick-active button) {
-            width: 44px;
-            height: 15px;
-            border-radius: 28px;
+            width: 35.2px;
+            height: 12px;
+            border-radius: 22.4px;
         }
 
         :global(.ant-carousel .slick-dots li button) {
-            width: 15px;
-            height: 15px;
-            border-radius: 28px;
+            width: 12px;
+            height: 12px;
+            border-radius: 22.4px;
         }
 
         :global(.ant-carousel .slick-dots li.slick-active) {
-            width: 44px;
-            margin: 0 4px;
+            width: 35.2px;
+            margin: 0 3.2px;
         }
 
         :global(.ant-carousel .slick-dots-bottom) {
-            bottom: 30px;
-            margin: 0px 0;
+            bottom: 24px;
+            margin: 11.26px 0;
         }
 
         :global(.ant-carousel .slick-dots li) {
-            margin: 0 4px;
-            width: 16px;
-        }
-
-        :global(.ant-modal-close) {
-            width: 30px;
-            height: 30px;
-        }
-
-        :global(.ant-modal) {
-            width: 1200px !important;
+            margin: 0 3.2px;
+            width: 12.8px;
         }
 
         .bodyProject {
-            margin: 56px 0 68px 0;
+            margin: 44.8px 0 54.4px 0;
         }
 
         .projectHeader {
-            font-size: 48px;
+            font-size: 38.4px;
         }
 
         .projects {
-            width: 1200px;
-            height: 331px;
-            margin: 36px auto 39px;
+            width: 974px;
+            margin: 28.8px auto 8.83px;
 
             .project {
-                width: 245px;
-                height: 113px;
-                border-radius: 10px;
-                padding: 20px 20px 18px 19px;
-                margin: 0 8px;
+                width: 199.3px;
+                height: 92.16px;
+                border-radius: 8px;
+                padding: 16px 16px 14.4px 15.23px;
+                margin: 0 6.4px 22.4px 6.4px;
             }
 
             .projectImg {
-                width: 36px;
-                height: 36px;
-                margin-right: 14px;
+                width: 28.8px;
+                height: 28.8px;
+                margin-right: 11.26px;
             }
 
             .name {
-                font-size: 16px;
+                font-size: 12.8px;
             }
 
             .description {
-                font-size: 14px;
-                margin-left: 50px;
+                font-size: 11.26px;
+                margin-left: 40px;
             }
 
             .readMore {
-                font-size: 12px;
-                margin-top: 16px;
+                font-size: 9.6px;
+                margin-top: 12.8px;
             }
 
         }
 
         .bodyDetail {
-            padding-top: 72px;
+            padding-top: 57.6px;
 
             .process {
-                margin-bottom: 96px;
+                margin-bottom: 76.8px;
 
                 .processTitle {
-                    font-size: 48px;
-                    margin-bottom: 41px;
+                    font-size: 38.4px;
+                    margin-bottom: 32.77px;
                 }
 
                 .number {
-                    font-size: 24px;
-                    width: 42px;
-                    height: 42px;
-                    margin-right: 13px;
+                    font-size: 19.2px;
+                    width: 33.66px;
+                    height: 33.66px;
+                    margin-right: 10.37px;
                 }
 
                 .itemDetail {
-                    font-size: 16px;
+                    font-size: 12.8px;
                 }
 
                 .itemName {
-                    font-size: 18px;
+                    font-size: 14.4px;
                 }
 
                 .itemAuthor {
-                    font-size: 16px;
-                    line-height: 26px;
+                    font-size: 12.8px;
+                    line-height: 20.54px;
                 }
 
                 .line {
-                    width: 1.6px;
-                    height: 22.5px;
-                    margin: 6.4px 0 9.6px 20px;
+                    width: 1.28px;
+                    height: 17.92px;
+                    margin: 5.12px 0 7.68px 16px;
                 }
             }
 
             .exam {
                 .examTitle {
-                    font-size: 48px;
-                    margin-bottom: 32px;
+                    font-size: 38.4px;
+                    margin-bottom: 26.37px;
                 }
 
                 .report {
-                    margin-bottom: 16px;
+                    margin-bottom: 12.8px;
                 }
 
                 .icon {
-                    width: 72px;
-                    height: 72px;
-                    margin-right: 24px;
+                    width: 57.6px;
+                    height: 57.6px;
+                    margin-right: 19.2px;
                 }
 
                 .reportTitle {
-                    font-size: 18px;
-                    line-height: 28px;
-                    margin-bottom: 12px;
+                    font-size: 14.4px;
+                    line-height: 22.4px;
+                    margin-bottom: 9.6px;
                 }
 
                 .reportDetail {
-                    font-size: 16px;
-                    width: 348px;
-                    margin-bottom: 16px;
+                    font-size: 12.8px;
+                    width: 279.17px;
+                    margin-bottom: 12.8px;
                 }
             }
 
             .schedule {
-                border-radius: 32px;
-                border: 2px solid @themeColorGray;
-                width: 444px;
-                height: 405px;
-                padding: 0 40px;
+                border-radius: 25.6px;
+                border: 3.84px solid @themeColorGray;
+                width: 291.2px;
+                padding: 0 32px 33px 32px;
 
                 .title {
-                    font-size: 22px;
-                    margin: 23px 0;
+                    font-size: 17.66px;
+                    margin: 18.43px 0;
                 }
 
                 .date {
-                    font-size: 18px;
-                    line-height: 28px;
+                    font-size: 14.4px;
+                    line-height: 22.4px;
+                    height: 22.4px;
                 }
 
                 .line {
-                    width: 359px;
-                    height: 1px;
-                    margin: 27px 0 20px 0;
+                    width: 287.23px;
+                    height: 0.77px;
+                    margin: 21.63px 0 16px 0;
                 }
             }
 
         }
 
         .team {
-            margin-bottom: 41px;
+            margin-bottom: 32.9px;
 
             .teamTitle {
-                font-size: 48px;
-                margin: 48px 0;
+                font-size: 38.4px;
+                margin: 38.4px 0;
             }
 
             .teamImage {
-                width: 276px;
-                height: 276px;
-                margin-bottom: 10px;
+                width: 220.67px;
+                height: 220.67px;
+                margin-bottom: 8px;
             }
 
             .teachers {
-                width: 1200px;
+                width: 979px;
             }
 
             .teacher {
-                margin: 0 12px 93px 12px;
-                width: 276px;
+                margin: 0 12px 74.37px 12px;
+                width: 220.67px;
             }
 
             .teacherName {
-                font-size: 22px;
-                line-height: 32px;
-                margin-bottom: 7px;
+                font-size: 17.66px;
+                line-height: 25.6px;
+                margin-bottom: 5.63px;
             }
 
             .jobTitle {
-                font-size: 18px;
+                font-size: 16.64px;
             }
 
             .rewards {
-                font-size: 12px;
-                line-height: 18px;
+                font-size: 9.6px;
+                line-height: 14.46px;
             }
         }
 
         .regist {
-            width: 1200px;
-            height: 144px;
-            margin-bottom: 96px;
+            width: 960px;
+            height: 115.2px;
+            margin-bottom: 76.8px;
 
             .text {
-                font-size: 48px;
-                margin-left: 48px;
+                font-size: 38.4px;
+                margin-left: 38.4px;
             }
 
             .button {
-                width: 204px;
-                height: 59px;
-                border-radius: 5px;
-                margin-right: 47px;
-                font-size: 16px;
+                width: 163px;
+                height: 47px;
+                border-radius: 4px;
+                margin-right: 37.63px;
+                font-size: 12.8px;
             }
         }
 
         .footer {
-            height: 327px;
+            height: 261.63px;
 
             .catalogs {
-                padding-top: 64px;
+                padding-top: 51.2px;
             }
 
             .catalog {
-                font-size: 16px;
-                margin: 0 48px;
+                font-size: 12.8px;
+                margin: 0 38.4px;
             }
 
             .line {
-                width: 1295px;
-                border: 1px solid @fontColorWhite;
-                margin: 33px auto;
+                width: 1036.8px;
+                border: 0.77px solid @fontColorWhite;
+                margin: 29.44px auto;
             }
 
             .copyrightAndPolicy {
-                font-size: 16px;
-                width: 1295px;
+                font-size: 12.8px;
+                width: 1036.8px;
             }
 
             .copyright {
-                margin-left: 66px;
+                margin-left: 52.86px;
             }
 
             .policy {
-                margin-right: 30px;
-                width: 293px;
+                margin-right: 23.94px;
+                width: 234.37px;
             }
         }
 
 
         .checkAll {
-            font-size: 16px;
+            font-size: 12.8px;
         }
     }
 }
@@ -865,32 +854,27 @@ body {
 
 :global(.ant-modal) {
     width: 75rem !important;
+    top: 5vh;
 }
 
 :global(.ant-modal .ant-modal-content) {
     border-radius: 0px;
-    height: 80vh;
+    height: 90vh;
     padding: 0;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
     .closeIcon {
-        width: 30px;
+        width: 24px;
     }
-    
-    
+
+
     :global(.ant-modal .ant-modal-close) {
-        width: 30px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
     }
-    
+
     :global(.ant-modal) {
-        width: 1200px !important;
-    }
-    
-    :global(.ant-modal .ant-modal-content) {
-        border-radius: 0px;
-        height: 80vh;
-        padding: 0;
+        width: 960px !important;
     }
 }

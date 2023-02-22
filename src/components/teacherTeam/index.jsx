@@ -21,7 +21,7 @@ const TeacherTeam = () => {
             title: '教师简介',
             dataIndex: 'name',
             key: 'name',
-            width: '70%',
+            width: '65%',
             render: (_, { name, intro }) => (
                 <>
                 <div className={styles.name}>{name}</div>
@@ -32,7 +32,7 @@ const TeacherTeam = () => {
         {
             title: '相关链接',
             key: 'download',
-            width: '10%',
+            width: '15%',
             className: styles.links,
             render: (_, { link }) => (
                 <>
