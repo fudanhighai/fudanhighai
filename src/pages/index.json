@@ -90,6 +90,20 @@
             "projectReadMore": "查看详情",
             "projectIcon": "projectIcon.png",
             "projectBackground": "projectBackground.png"
+        },
+        {
+            "projectName": "打开人工智能的黑盒子",
+            "projectDescription": "Adversarial attacks and defenses.",
+            "projectReadMore": "查看详情",
+            "projectIcon": "projectIcon.png",
+            "projectBackground": "projectBackground.png"
+        },
+        {
+            "projectName": "能让你“隐身”的对抗补丁",
+            "projectDescription": "Adversarial attacks and defenses.",
+            "projectReadMore": "查看详情",
+            "projectIcon": "projectIcon.png",
+            "projectBackground": "projectBackground.png"
         }
     ],
     "process": [
@@ -147,6 +161,16 @@
             "number": 11,
             "itemName": "可解释人工智能：打人工智能黑箱。",
             "itemAuthor": "陈思明"
+        },
+        {
+            "number": 11,
+            "itemName": "可解释人工智能：打人工智能黑箱。",
+            "itemAuthor": "陈思明"
+        },
+        {
+            "number": 11,
+            "itemName": "可解释人工智能：打人工智能黑箱。",
+            "itemAuthor": "陈思明"
         }
     ],
     "lastProcess": {
@@ -174,8 +198,18 @@
     ],
     "schedule": {
         "title": "2023 年春季上课日期和时段：",
-        "date": ["第一次：3月13日（周日）", "第二次：3月27日（周日）", "第三次：4月10日（周日）", "第四次：4月24日（周日）", "第五次：5月8日（周日）", "第六次：5月22日（周日）", "备用调课周：4月17日（周日）", "备用调课周：5月15日（周日）"],
-        "duration": "每周日下午13:30-15:00"
+        "locationTitle": "上课地点",
+        "date": [
+            "每周日下午13:30 - 16:00",
+            " ",
+            "第一次：2月26日（周日）",
+            "第二次：3月5日（周日）",
+            "第三次：3月12日（周日）",
+            "第四次：3月19日（周日）",
+            "第五次：3月26日（周日）",
+            "第六次：4月2日（周日）"
+        ],
+        "duration": "复旦大学邯郸校区第六教学楼 301"
     },
     "teachers": [
         {
