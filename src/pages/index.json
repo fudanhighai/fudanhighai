@@ -1,7 +1,7 @@
 {
     "lessons": [
         {
-            "lessonName": "课程",
+            "lessonName": "课程简介",
             "lessonDetail": "人工智能是21世纪最令人兴奋的学科领域之一。经过70多年的起伏发展，人工智能技术已深入人们生产生活的方方面面，人类社会在不久的将来也会全面进入人工智能时代。本课程将从人工智能的发展历史出发，介绍人工智能的代表性研究方向，包括计算机视觉、自然语言处理、金融科技、科学智能等。此外，本课程会配备示例项目，包括系外行星检测、寻找走失儿童、帮助盲人识字、虚假新闻检测等，给学生展示如何使用人工智能进行科学发现和解决社会问题，帮学生建立对人工智能的兴趣和社会责任感。",
             "lessonButton": "了解更多",
             "lessonFeature": [
@@ -54,7 +54,7 @@
             "projectIcon": "projectIcon.png",
             "projectBackground": "projectBackground.png",
             "markdown": "",
-            "link": "https://www.csdn.net/"
+            "link": "https://fudan-highai-flc.terrytengli.com/"
         },
         {
             "projectName": "帮助盲人识字",
