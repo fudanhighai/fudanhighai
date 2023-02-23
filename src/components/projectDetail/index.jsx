@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './index.less';
 import ReactMarkdown from 'react-markdown';
 import 'github-markdown-css/github-markdown.css';
+import rehypeRaw from "rehype-raw";
 
 const ProjectDetail = ({ url, isMarkdown }) => {
     const [markdownString, setMarkdownString] = useState("");
@@ -22,7 +23,7 @@ const ProjectDetail = ({ url, isMarkdown }) => {
         <div className={styles.lessonResources}>
             <div className={styles.content}>
                 {isMarkdown === true ?
-                    <ReactMarkdown className="markdown-body" children={markdownString} skipHtml={false} /> :
+                    <ReactMarkdown className="markdown-body" children={markdownString} skipHtml={false} rehypePlugins={[rehypeRaw]} /> :
                     <iframe src={url} width="99%" height="98%" />
                 }
             </div>
