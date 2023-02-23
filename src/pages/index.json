@@ -9,7 +9,8 @@
                 "大量真实场景实例项目",
                 "每次 3 课时，12 次课，共 36 学时"
             ],
-            "lessonImg": "quote.png"
+            "lessonImg": "quote.png",
+            "link": "https://www.csdn.net/"
         },
         {
             "lessonName": "课程简介",
@@ -20,7 +21,8 @@
                 "大量真实场景实例项目",
                 "每次 3 课时，12 次课，共 36 学时"
             ],
-            "lessonImg": "quote.png"
+            "lessonImg": "quote.png",
+            "link": "https://www.csdn.net/"
         },
         {
             "lessonName": "课程简介",
@@ -31,7 +33,8 @@
                 "大量真实场景实例项目",
                 "每次 3 课时，12 次课，共 36 学时"
             ],
-            "lessonImg": "quote.png"
+            "lessonImg": "quote.png",
+            "link": ""
         }
     ],
     "projects": [

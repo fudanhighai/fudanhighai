@@ -39,6 +39,12 @@ const Homepage = () => {
     setProjectUrl(url);
   }
 
+  const openLessonLink = (url) => {
+    if(url !== ""){
+      window.open(url);
+    }
+  }
+
   const { lessons, projects, process, lastProcess, exams, schedule, teachers } = data;
   return (
     <div className={styles.container}>
@@ -79,7 +85,7 @@ const Homepage = () => {
                       <div className={styles.context}>
                         {item.lessonDetail}
                       </div>
-                      <div className={styles.button}>{item.lessonButton}</div>
+                      <div className={styles.button} onClick={() => openLessonLink(item.link)}>{item.lessonButton}</div>
                       <div className={styles.lessonDetails}>
                         {item.lessonFeature.map((context) => {
                           return (
@@ -121,7 +127,6 @@ const Homepage = () => {
             )
           })}
         </div>
-        <div className={styles.checkAll}>查看所有示例项目</div>
       </div>
       <div className={styles.bodyDetail}>
         <div className={styles.process}>
