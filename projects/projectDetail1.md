@@ -109,19 +109,19 @@
   <tbody>
   <tr width="100%">
     <td width="20%">
-      <center><img src="projects/projectDetail1/stars%20with%20exoplants/number%201.png" width=300px /></center>
+      <center><img src="projects/projectDetail1/stars%20with%20exoplants/number%201.webp" width=300px /></center>
     </td>
     <td width="20%">
-      <center><img src="projects/projectDetail1/stars%20with%20exoplants/number%202.png" width=300px /></center>
+      <center><img src="projects/projectDetail1/stars%20with%20exoplants/number%202.webp" width=300px /></center>
     </td>
     <td width="20%">
-      <center><img src="projects/projectDetail1/stars%20with%20exoplants/number%203.png" width=300px /></center>
+      <center><img src="projects/projectDetail1/stars%20with%20exoplants/number%203.webp" width=300px /></center>
     </td>
     <td width="20%">
-      <center><img src="projects/projectDetail1/stars%20with%20exoplants/number%204.png" width=300px /></center>
+      <center><img src="projects/projectDetail1/stars%20with%20exoplants/number%204.webp" width=300px /></center>
     </td>
     <td width="20%">
-      <center><img src="projects/projectDetail1/stars%20with%20exoplants/number%205.png" width=300px /></center>
+      <center><img src="projects/projectDetail1/stars%20with%20exoplants/number%205.webp" width=300px /></center>
     </td>
   </tr>
   </tbody>
@@ -139,19 +139,19 @@
   <tbody>
   <tr width="100%">
     <td width="20%">
-      <center><img src="projects/projectDetail1/stars%20without%20exoplants/number%201.png" width=300px /></center>
+      <center><img src="projects/projectDetail1/stars%20without%20exoplants/number%201.webp" width=300px /></center>
     </td>
     <td width="20%">
-      <center><img src="projects/projectDetail1/stars%20without%20exoplants/number%202.png" width=300px /></center>
+      <center><img src="projects/projectDetail1/stars%20without%20exoplants/number%202.webp" width=300px /></center>
     </td>
     <td width="20%">
-      <center><img src="projects/projectDetail1/stars%20without%20exoplants/number%203.png" width=300px /></center>
+      <center><img src="projects/projectDetail1/stars%20without%20exoplants/number%203.webp" width=300px /></center>
     </td>
     <td width="20%">
-      <center><img src="projects/projectDetail1/stars%20without%20exoplants/number%204.png" width=300px /></center>
+      <center><img src="projects/projectDetail1/stars%20without%20exoplants/number%204.webp" width=300px /></center>
     </td>
     <td width="20%">
-      <center><img src="projects/projectDetail1/stars%20without%20exoplants/number%205.png" width=300px /></center>
+      <center><img src="projects/projectDetail1/stars%20without%20exoplants/number%205.webp" width=300px /></center>
     </td>
   </tr>
   </tbody>
